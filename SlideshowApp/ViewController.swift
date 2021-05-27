@@ -10,7 +10,8 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var startstopButton: UIButton!
     @IBOutlet weak var slideimage: UIImageView!
-    
+    @IBOutlet weak var nextimage: UIButton!
+    @IBOutlet weak var backimage: UIButton!
     
     var imageIndex = 0
     //// 配列に指定するindex番号を宣言
@@ -19,13 +20,15 @@ class ViewController: UIViewController {
     var timer : Timer!
     // スライドショーに使用するタイマーを宣言
     
-    let images = [UIImage(named: "image1"), UIImage(named: "image2"), UIImage(named: "image3"),UIImage(named: "image4")]
+    let images = [UIImage(named: "image1.jpeg"), UIImage(named: "image2.jpg"), UIImage(named: "image3.jpg"),UIImage(named: "image4.jpg")]
     // スライドショーさせる画像の配列を宣言
     //image1,image2,image3,image4 = 0,1,2,3
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+       
 
         slideimage.image = images[imageIndex]
         //起動時にimage1(0)の画像を表示
@@ -45,12 +48,23 @@ class ViewController: UIViewController {
     
     @IBAction func ontap(_ sender: Any) {
         
+        if self.timer != nil {
+            self.timer.invalidate()
+                    self.timer = nil
+                    
+                    startstopButton.setTitle("再生", for: .normal)
+                    
+                    nextimage.isEnabled = true
+                    backimage.isEnabled = true
+        }
+        
         performSegue(withIdentifier: "result", sender: nil)
         
     }
+        
     
         
-        
+    
 
     @IBAction func nextimage(_ sender: Any) {
         
@@ -89,6 +103,9 @@ class ViewController: UIViewController {
             
             startstopButton.setTitle("停止", for: .normal)
             
+            nextimage.isEnabled = false
+            backimage.isEnabled = false
+            
             
         } else {
             self.timer.invalidate()
@@ -96,6 +113,8 @@ class ViewController: UIViewController {
             
             startstopButton.setTitle("再生", for: .normal)
             
+            nextimage.isEnabled = true
+            backimage.isEnabled = true
         }
         
         

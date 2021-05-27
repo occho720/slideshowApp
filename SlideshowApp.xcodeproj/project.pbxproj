@@ -14,6 +14,10 @@
 		9EC5971B2644067400BFA9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5971A2644067400BFA9E5 /* Assets.xcassets */; };
 		9EC5971E2644067400BFA9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5971C2644067400BFA9E5 /* LaunchScreen.storyboard */; };
 		9ECA5CF42656617300890338 /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA5CF32656617300890338 /* ExpansionViewController.swift */; };
+		9ECB4216265FCEB10055DCAB /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ECB4212265FCEB00055DCAB /* image3.jpg */; };
+		9ECB4217265FCEB10055DCAB /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ECB4213265FCEB00055DCAB /* image2.jpg */; };
+		9ECB4218265FCEB10055DCAB /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ECB4214265FCEB10055DCAB /* image4.jpg */; };
+		9ECB4219265FCEB10055DCAB /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9ECB4215265FCEB10055DCAB /* image1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		9EC5971D2644067400BFA9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC5971F2644067400BFA9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ECA5CF32656617300890338 /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
+		9ECB4212265FCEB00055DCAB /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		9ECB4213265FCEB00055DCAB /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		9ECB4214265FCEB10055DCAB /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		9ECB4215265FCEB10055DCAB /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				9EC597152644067100BFA9E5 /* ViewController.swift */,
 				9ECA5CF32656617300890338 /* ExpansionViewController.swift */,
 				9EC597172644067100BFA9E5 /* Main.storyboard */,
+				9ECB4215265FCEB10055DCAB /* image1.jpeg */,
+				9ECB4213265FCEB00055DCAB /* image2.jpg */,
+				9ECB4212265FCEB00055DCAB /* image3.jpg */,
+				9ECB4214265FCEB10055DCAB /* image4.jpg */,
 				9EC5971A2644067400BFA9E5 /* Assets.xcassets */,
 				9EC5971C2644067400BFA9E5 /* LaunchScreen.storyboard */,
 				9EC5971F2644067400BFA9E5 /* Info.plist */,
@@ -127,9 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ECB4219265FCEB10055DCAB /* image1.jpeg in Resources */,
 				9EC5971E2644067400BFA9E5 /* LaunchScreen.storyboard in Resources */,
+				9ECB4217265FCEB10055DCAB /* image2.jpg in Resources */,
+				9ECB4218265FCEB10055DCAB /* image4.jpg in Resources */,
 				9EC5971B2644067400BFA9E5 /* Assets.xcassets in Resources */,
 				9EC597192644067100BFA9E5 /* Main.storyboard in Resources */,
+				9ECB4216265FCEB10055DCAB /* image3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

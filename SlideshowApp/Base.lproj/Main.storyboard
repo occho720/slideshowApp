@@ -65,6 +65,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backimage" destination="80t-Ma-5DQ" id="DNJ-j0-XOc"/>
+                        <outlet property="nextimage" destination="2Xo-TB-Ehm" id="QKV-Vc-MWY"/>
                         <outlet property="slideimage" destination="wxe-Bu-OvT" id="1mO-gc-j8C"/>
                         <outlet property="startstopButton" destination="Zhi-fT-78X" id="YGV-I1-EL5"/>
                         <segue destination="iEY-IG-4Pw" kind="show" identifier="result" id="SJF-iV-ijv"/>
